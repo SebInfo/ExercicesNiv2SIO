@@ -6,7 +6,7 @@ function estPair($n) {
     return ($n % 2 == 0);
 }
 
-$valeurs = [0, 1, 2, 7, 10, 15, 18];
+$valeurs = [0, 1, 2, 7, 10, 15, 19];
 
 foreach ($valeurs as $v) {
     if (estPair($v)) {
